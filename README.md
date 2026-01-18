@@ -1,6 +1,7 @@
 # Modern SubMap (R Implementation)
 
 > **Core Algorithm**: Hoshida Y, et al. "Subclass Mapping: Identifying Common Subtypes in Independent Disease Data Sets". *PLoS ONE* (2007).
+
 > **Original Script**: `submap.R` by Broad Institute (Oct. 14, 2008).
 
 The original `submap.R` relies on the specific old file formats of GenePattern (.gct, .cls), which leads to low running efficiency (with many loops) and cannot directly interface with modern R analysis workflows (like Seurat, Biobase).
@@ -55,7 +56,7 @@ This project has undergone **Modern Refactoring** of the original code, fundamen
 Simply load `submap_modern.R` to use.
 
 ```r
-source("10.submap/submap_modern.R")
+source("submap_modern.R")
 
 # Prepare data (Standard R objects)
 # exp_ref:   Gene x Sample matrix (Reference)
