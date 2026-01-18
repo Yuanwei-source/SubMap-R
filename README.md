@@ -48,7 +48,7 @@ This project has undergone **Modern Refactoring** of the original code, fundamen
 Simply load `submap_modern.R` to use.
 
 ```r
-source("10.submap/submap_modern.R")
+source("submap_modern.R")
 
 # Prepare data (Standard R objects)
 # exp_ref:   Gene x Sample matrix (Reference)
